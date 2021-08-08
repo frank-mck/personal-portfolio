@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <link href ="styles.css" type = "text/css" rel = "stylesheet">
+    <link href ="styles/styles.css" type = "text/css" rel = "stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
@@ -9,7 +9,7 @@
   <header class = "header">
     <div class="header__ul">
       <a href = "#home" class = "header__li">Home</a>
-      <a href = "#about" class = "header__li">About</a>
+      <a href = "#bio" class = "header__li">About</a>
       <a href = "#projects" class = "header__li">Projects</a>
       <a href = "#contact" class = "header__li">Contact</a>
     </div>
@@ -17,8 +17,8 @@
 
   <section class = "name-title" id ="home">
     <h1 class = 'name-title__name'>
-      <span class = "name-title__primary">Hey, I am Frank Mckenna</span>
-      <span class ="name-title__sub">A Web Developer</span>
+      <span class = "name-title__primary">Hi there, I'm Frank Mckenna</span>
+      <span class ="name-title__sub">A Software Developer</span>
       <a class="btn btn--border-blue" href ="https://raw.githubusercontent.com/frank-mck/blog-node.js/main/image.png" target ="_blank">Resume</a>
     </h1>
   </section>
@@ -78,30 +78,30 @@
   </div>
 
   <div class="projects-wrapper" id = "projects">
-    <div><h1 class="projects-header">PROJECTS</h1></div>
-    <div class="proj">
-      <a href ="https://codepen.io/frankeez/full/VwaqVjP" target ="_blank">
-        <div class="proj-items">
+    <h1 class="projects-wrapper__header">PROJECTS</h1>
+    <div class="projects-wrapper__project">
+      <a class="projects-wrapper__project-img" href ="https://codepen.io/frankeez/full/VwaqVjP" target ="_blank">
+        <!-- <div class="projects-wrapper__project-img"> -->
           <img src ="https://snipboard.io/SMC1T4.jpg">
-        </div>
+        <!-- </div> -->
       </a>
 
-      <a href ="https://codepen.io/frankeez/full/VwKRgyX" target ="_blank">
-        <div class="proj-items">
+      <a class="projects-wrapper__project-img" href ="https://codepen.io/frankeez/full/VwKRgyX" target ="_blank">
+        <!-- <div class="proj-items"> -->
           <img src ="https://snipboard.io/aDJYtZ.jpg">
-        </div>
+        <!-- </div> -->
       </a>
 
-      <a href = "https://codepen.io/frankeez/pen/eYZbPqo" target ="_blank">
-        <div class ="proj-items">
-          <img src = "https://snipboard.io/s0gfU4.jpg">
-        </div>
-      </a>
-
-      <a href = "https://codepen.io/frankeez/full/YzWOprg" target = "_blank">
-        <div class="proj-items">
+      <a class="projects-wrapper__project-img" href = "https://github.com/frank-mck/acebook-rails" target = "_blank">
+        <!-- <div class="proj-items"> -->
           <img src = "https://snipboard.io/prdStD.jpg">
-        </div>
+        <!-- </div> -->
+      </a>
+
+      <a class="projects-wrapper__project-img" href = "https://github.com/frank-mck/bowling-challenge" target = "_blank">
+        <!-- <div class="proj-items"> -->
+          <img height="340" src = "https://raw.githubusercontent.com/frank-mck/bowling-challenge/main/images/Screenshot%202021-07-21%20at%2021.21.40.png">
+        <!-- </div> -->
       </a>
     </div>
   </div>
@@ -143,7 +143,7 @@
     </div>
   </div>
 
-  <footer>
+  <footer class ='footer'>
     <p>
       @ Frank Mckenna 2020 | All Rights Reserved<span class ='heart'> &#9829</span>
     </p>
