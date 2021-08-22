@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-  let skill = document.getElementById('skill');
-  const bars = document.querySelectorAll("[data-bar-id]");
-  let i = 0;
-
   const progressBars = () => {
+    let skill = document.getElementById('skill');
+    const bars = document.querySelectorAll("[data-bar-id]");
+    let i = 0;
     if (i == 0) {
       i = 1;
       bars.forEach(bar => {
@@ -27,4 +26,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   skill.addEventListener("mouseover", progressBars, false)
-});
+})
