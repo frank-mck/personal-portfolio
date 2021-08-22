@@ -1,4 +1,4 @@
-const bars = document.querySelectorAll("[data-bar-id]");
+let bars = document.querySelectorAll("[data-bar-id]");
 let skill = document.getElementById('skill')
 let i = 0;
 
