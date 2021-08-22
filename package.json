@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/frank-mck/personal-portfolio/issues"
   },
-  "homepage": "https://github.com/frank-mck/personal-portfolio#readme"
+  "homepage": "https://github.com/frank-mck/personal-portfolio#readme",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
 }
