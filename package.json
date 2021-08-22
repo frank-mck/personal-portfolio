@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/frank-mck/personal-portfolio#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "node-modules": "^1.0.1"
+    "express": "^4.17.1"
   }
 }
