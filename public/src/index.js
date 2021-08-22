@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   let skill = document.getElementById('skill');
   const bars = document.querySelectorAll("[data-bar-id]");
   let i = 0;
