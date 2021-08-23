@@ -847,7 +847,7 @@ body {
             transform: translateY(0.5rem);
   }
   
-  @media only screen and (min-width: 308px) and (max-width: 800px) {
+  @media only screen and (min-width: 348px) and (max-width: 800px) {
     html {
       font-size: 12px;
     }
@@ -862,5 +862,55 @@ body {
 
     .bio-wrapper {
       margin: -3rem 1rem 1rem 1rem;
+      padding: 6px;
+
+      & .bio {
+        padding: 10px;
+        line-break: break-all;
+      }
+    }
+
+    .cv, .link {
+      padding: 5px;
+      margin: 0;
+    } 
+  }
+
+  @media only screen and (min-width: 280px) and (max-width: 348px) {
+    html {
+      font-size: 10px;
+    }
+    .contacts, .skills-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .con-card {
+      width: 180px;
+    }
+
+    .bio-wrapper {
+      margin: -3rem 1rem 1rem 1rem;
+      padding: 6px;
+      width: 96%;
+
+      & .bio {
+        padding: 10px;
+        line-break: break-all;
+      }
+    }
+
+    .cv, .link {
+      padding: 5px;
+      margin: 0;
+    } 
+    
+    .skills-img {
+      width: 75px;
+      height: 75px;
+    }
+
+    .skills-img-wrapper {
+      grid-gap: 5px;
     }
   }

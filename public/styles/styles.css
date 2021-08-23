@@ -953,7 +953,7 @@ button {
   transform: translateY(0.5rem);
 }
 
-@media only screen and (min-width: 308px) and (max-width: 800px) {
+@media only screen and (min-width: 348px) and (max-width: 800px) {
   html {
     font-size: 12px;
   }
@@ -971,6 +971,53 @@ button {
   }
   .bio-wrapper {
     margin: -3rem 1rem 1rem 1rem;
+    padding: 6px;
+  }
+  .bio-wrapper .bio {
+    padding: 10px;
+    line-break: break-all;
+  }
+  .cv, .link {
+    padding: 5px;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 348px) {
+  html {
+    font-size: 10px;
+  }
+  .contacts, .skills-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .con-card {
+    width: 180px;
+  }
+  .bio-wrapper {
+    margin: -3rem 1rem 1rem 1rem;
+    padding: 6px;
+    width: 96%;
+  }
+  .bio-wrapper .bio {
+    padding: 10px;
+    line-break: break-all;
+  }
+  .cv, .link {
+    padding: 5px;
+    margin: 0;
+  }
+  .skills-img {
+    width: 75px;
+    height: 75px;
+  }
+  .skills-img-wrapper {
+    grid-gap: 5px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
