@@ -261,6 +261,10 @@ body {
         z-index: 10;
         margin-top: .9rem;
 
+        &-para {
+          color: #171719d2;
+        }
+
         & h1 {
           font-weight: 500;
           font-size: 2.4rem;
@@ -605,7 +609,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     font-size: 1.4rem;
- 
+    height: 70vh;
     width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -634,7 +638,7 @@ body {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       padding-bottom: 3rem;
-      padding-top: 3rem;
+      padding-top: 1rem;
     }
   }
   
@@ -740,6 +744,22 @@ body {
             justify-content: center;
     font-weight: 300;
     color: #000;
+
+    &-link img {
+      width: 2rem;
+      height: 2rem;
+      margin-right: 6px;
+    }
+
+    & a {
+      text-decoration: none;
+      color: black;
+      list-style: none;
+    }
+
+    & span {
+      margin-left: 5px;
+    }
   }
   
   @media only screen and (min-width: 348px) and (max-width: 800px) {
