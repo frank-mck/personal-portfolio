@@ -343,7 +343,7 @@ body {
 
   .skills-heading {
     color: #000000;
-    margin: 1rem;
+    margin: 1.5rem;
     text-align: center;
     font-weight: 400;
     border-radius: 50px;
@@ -571,7 +571,6 @@ body {
 
     &__header {
       color: #f7f7f7;
-      padding: 2rem;
       font-weight: 300;
     }
 
@@ -579,12 +578,11 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin: 2rem 0;
+      margin: 0 0 2rem 0;
       width: 100%;
     }
 
     &__project-img {
-      
       display: inline;
     }
 
