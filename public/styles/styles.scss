@@ -38,13 +38,13 @@ body {
   color: $primary-white;
   z-index: 90000;
   font-weight: 400;
-  box-shadow: 0 1px 4px #1e1f20;
+  box-shadow: 0 1px 4px #1e1f209d;
 
   &__ul {
     display: flex;
     width: 100%;
     justify-content: flex-end;  
-    padding: 0 1.2rem;
+    margin-right: 1rem;
     
   }
 
@@ -260,8 +260,8 @@ body {
     max-width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 7.5rem 35vw 40%;
-        grid-template-columns: 7.5rem 35vw 40%;
+    -ms-grid-columns: 7.5rem 35vw 50%;
+        grid-template-columns: 7.5rem 35vw 50%;
     grid-row-gap: .4rem;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
@@ -639,7 +639,7 @@ body {
       flex-wrap: wrap;
       justify-content: center;
       margin: 2rem 0;
-      width: 100vw;
+      width: 100%;
     }
 
     &__project-img {
@@ -858,5 +858,9 @@ body {
 
     .con-card {
       width: 180px;
+    }
+
+    .bio-wrapper {
+      margin: -3rem 1rem 1rem 1rem;
     }
   }
