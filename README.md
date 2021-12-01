@@ -2,6 +2,6 @@
 
 Written in HTML, SASS, JavaScript.
 
-## Deployed on Heroku
+## Deployed on Netlify
 
-> [Portfolio](https://frank-mckenna.herokuapp.com/) 
+> [Portfolio](https://frank-mckenna.netlify.app/) 
