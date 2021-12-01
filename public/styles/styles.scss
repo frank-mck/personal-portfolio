@@ -595,6 +595,22 @@ body {
       height: 350px;
       object-fit: fill;
     }
+
+    &__project-img-mobile {
+      width: 390px;
+      height: 350px;
+      object-fit: fill;
+      background-color: #0A1929;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    &__project-img-mobile img {
+      width: 175px!important;
+      height: 330px!important;
+      border-radius: 24px;
+    }
   }
   
   .projects-wrapper__project-img:hover {
@@ -608,8 +624,11 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
     font-size: 1.4rem;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -691,7 +710,7 @@ body {
     & img {
       width: 4.5rem;
       height: 4.5rem;
-      border-radius: 50px;
+      
     }
   }
   
@@ -736,6 +755,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 1.5rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -755,10 +775,6 @@ body {
       text-decoration: none;
       color: black;
       list-style: none;
-    }
-
-    & span {
-      margin-left: 5px;
     }
   }
   
@@ -810,9 +826,27 @@ body {
 
     .projects-wrapper__project-img img {
       display: flex;
-      flex-direction: column;
       width:340px;
       height: 300px;
+    }
+
+    .projects-wrapper__project-img-mobile  {
+      width: 340px;
+      height: 300px;
+      display: flex;
+    }
+
+    .projects-wrapper__project-img-mobile img {
+      width: 150px!important;
+      height: 285px!important;
+    }
+
+    .contact-wrapper {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      justify-content: space-between;
+      height: 100vh;
     }
   }
 
@@ -857,10 +891,18 @@ body {
       grid-gap: 8px;
     }
 
-    .projects-wrapper__project-img img {
+    .projects-wrapper__project-img img, .projects-wrapper__project-img-mobile img {
       display: flex;
       flex-direction: column;
       width:300px;
       height: 270px;
+    }
+
+    .contact-wrapper {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      justify-content: space-between;
+      height: 80vh;
     }
   }
